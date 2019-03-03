@@ -62,7 +62,6 @@ class Owner
     fishCount = @pets[:fishes].count
     dogCount = @pets[:dogs].count
     catCount = @pets[:cats].count
-    binding.pry
     return "I have #{fishCount} fish, #{dogCount} dog(s), and #{catCount} cat(s)."
   end
 
