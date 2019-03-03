@@ -60,6 +60,7 @@ class Owner
 
   def list_pets
     fishCount = @pets[:fishes].count
+    binding.pry
     puts "I have #{fishCount} fish."
   end
 
