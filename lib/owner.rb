@@ -60,7 +60,7 @@ class Owner
 
   def list_pets
     fishCount = @pets[:fishes].count
-    puts "I have #{}"
+    puts "I have #{fishCount} fish."
   end
 
   def self.all
