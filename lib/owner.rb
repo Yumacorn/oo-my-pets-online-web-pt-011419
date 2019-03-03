@@ -59,11 +59,8 @@ class Owner
   end
 
   def list_pets
-    @pets.each do |pet_type, pet_array|
-      pet_array.each do |pet|
-        pet.mood = "nervous"
-      end
-    end
+    fishCount = @pets[:fishes].count
+    puts "I have #{}"
   end
 
   def self.all
