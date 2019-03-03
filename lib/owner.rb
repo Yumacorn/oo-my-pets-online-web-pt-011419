@@ -37,8 +37,9 @@ class Owner
     @pets[:dogs] << dog
   end
 
-  def walk_dog
+  def walk_dogs
   end
+
   def self.all
     @@all
   end
