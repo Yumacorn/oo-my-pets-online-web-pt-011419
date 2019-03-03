@@ -22,14 +22,12 @@ class Owner
   def buy_fish(name)
     fish = Fish.new(name)
     fish.owner = self
-    # binding.pry
     @pets[:fishes] << fish
   end
 
   def buy_cat(name)
     cat = Cat.new(name)
     cat.owner = self
-    # binding.pry
     @pets[:cats] << cat
   end
 
