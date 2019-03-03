@@ -25,6 +25,10 @@ class Owner
     @pets[:fishes] << fish
   end
 
+  def play_with_cats
+    self.pets[:cats].each {|cat| cat.mood = "happy"}
+  end
+
   def buy_cat(name)
     cat = Cat.new(name)
     cat.owner = self
