@@ -23,7 +23,7 @@ class Owner
     fish = Fish.new(name)
     fish.owner = self
     binding.pry
-    @pets[:fishes] = fish
+    @pets[:fishes] << fish
   end
 
   def self.all
