@@ -60,6 +60,7 @@ describe Owner do
 
     describe "#buy_fish" do
       it 'can buy a fish that is an instance of the Fish class' do
+        # binding.pry #prying here
         expect(owner.pets[:fishes].count).to eq(0)
         owner.buy_fish("Bubbles")
         owner.pets[:fishes].each do |fish|
